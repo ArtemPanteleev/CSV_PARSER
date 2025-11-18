@@ -34,8 +34,8 @@ make                # mingw32-make / nmake на Windows
 CSV_PARSER/
 ├─ main.cpp # Точка входа
 ├─ mainwindow.* # GUI-логика
-├─ csvparser.* # Классы Row и CSVFile
-├─ resource.qrc # Ресурсы интерфейса
+-├─ csvparser.* # Классы Row и CSVFile
+- ├─ resource.qrc # Ресурсы интерфейса
 ├─ open.png / save.png # Иконки действий
 ├─ cs.csv # Пример CSV
 └─ README.md
