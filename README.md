@@ -32,13 +32,14 @@ make                # mingw32-make / nmake на Windows
 
 ## Структура проекта
 CSV_PARSER/
+```
 ├─ main.cpp # Точка входа
 ├─ mainwindow.* # GUI-логика
--├─ csvparser.* # Классы Row и CSVFile
-- ├─ resource.qrc # Ресурсы интерфейса
+├─ csvparser.* # Классы Row и CSVFile
+├─ resource.qrc # Ресурсы интерфейса
 ├─ open.png / save.png # Иконки действий
-├─ cs.csv # Пример CSV
-└─ README.md
+└─ cs.csv # Пример CSV
+```
 
 ## Основные классы
 - `Row` — хранит значения строки, управляет доступом к ячейкам и добавлением колонок.
